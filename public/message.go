@@ -11,4 +11,5 @@ var AllMessages []Message = []Message{
 	{"spanish", "Hola Mundo!"},
 	{"english", "Hello World!"},
 	{"french", "Salut Monde!"},
+	{"portuguese", "Olá mundo!"}
 }
