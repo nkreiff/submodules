@@ -7,8 +7,8 @@ type (
 	}
 )
 
-var AllMessages []Message {
-	Message("spanish", "Hola Mundo!"),
-	Message("english", "Hello World!"),
-	Message("french", "Salut Monde!"),
+var AllMessages []Message = []Message{
+	{"spanish", "Hola Mundo!"},
+	{"english", "Hello World!"},
+	{"french", "Salut Monde!"},
 }
