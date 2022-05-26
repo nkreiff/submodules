@@ -1,0 +1,47 @@
+{
+    "id": "news_your_business",
+    "variants": [
+        {
+            "id": "mp-news-your-business-mla",
+            "ui_type": "chevron_row",
+            "data": {
+                "badge": {
+                    "background_color": "#009ee3",
+                    "id": "news_badge",
+                    "text": "NUEVO",
+                    "text_color": "#ffffff"
+                },
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://webview/?url=https%3A%2F%2Fwww.mercadopago.com.ar%2Fnews&authentication_mode=required&title=Novedades&use_web_title=false"
+                        },
+                        "id": "news_your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "page_id": "your_business_v2",
+                "title": {
+                    "text": "Novedades"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLA"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1945000207238192
+                        },
+                        {
+                            "id": 1311377052931992
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

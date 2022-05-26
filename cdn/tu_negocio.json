@@ -1,0 +1,399 @@
+{
+    "id": "tu_negocio",
+    "variants": [
+        {
+            "id": "mp-ios-general",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Tu negocio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLA",
+                        "MLM",
+                        "MLC",
+                        "MCO",
+                        "MLU",
+                        "MPE"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1945000207238192
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-ios-mlb",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Seu negócio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLB"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1945000207238192
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-android-general",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business_dynamic"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Tu negocio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLA",
+                        "MLM",
+                        "MLC",
+                        "MCO",
+                        "MLU",
+                        "MPE"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1311377052931992
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-android-mlb",
+            "ui_type": "icon_row",
+            "data": {
+                "component": "com.mercadolibre.android.navigation.NavigationActivity",
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business_dynamic"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Seu negócio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLB"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1311377052931992
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-android-general-v2",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business_v2&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business_dynamic"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Tu negocio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLA",
+                        "MLM",
+                        "MLC",
+                        "MCO",
+                        "MLU",
+                        "MPE"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1311377052931992,
+                            "since_version": "2.162.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-ios-general-v2",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business_v2&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Tu negocio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLA",
+                        "MLM",
+                        "MLC",
+                        "MCO",
+                        "MLU",
+                        "MPE"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1945000207238192,
+                            "since_version": "2.162.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-android-mlb-v2",
+            "ui_type": "icon_row",
+            "data": {
+                "component": "com.mercadolibre.android.navigation.NavigationActivity",
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business_v2&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business_dynamic"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Seu negócio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLB"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1311377052931992,
+                            "since_version": "2.162.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-ios-mlb-v2",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navigation_sections?page_id=your_business_v2&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Seu negócio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLB"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1945000207238192,
+                            "since_version": "2.162.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-android-mlb-v2-212",
+            "ui_type": "icon_row",
+            "data": {
+                "component": "com.mercadolibre.android.navigation.NavigationActivity",
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navsections_fragment?page_id=your_business_v2&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business_dynamic"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Seu negócio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLB"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1311377052931992,
+                            "since_version": "2.212.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "mp-android-general-v2-212",
+            "ui_type": "icon_row",
+            "data": {
+                "events": [
+                    {
+                        "data": {
+                            "external": "false",
+                            "mode": "push",
+                            "url": "mercadopago://navsections_fragment?page_id=your_business_v2&from=navigation_mp"
+                        },
+                        "id": "your_business",
+                        "type": "deeplink"
+                    }
+                ],
+                "icon": {
+                    "name": "ic_navigation_business_dynamic"
+                },
+                "page_id": "navigation_menu_mp",
+                "title": {
+                    "text": "Tu negocio"
+                }
+            },
+            "support": [
+                {
+                    "sites": [
+                        "MLA",
+                        "MLM",
+                        "MLC",
+                        "MCO",
+                        "MLU",
+                        "MPE"
+                    ],
+                    "clients": [
+                        {
+                            "id": 1311377052931992,
+                            "since_version": "2.212.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

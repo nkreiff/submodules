@@ -1,18 +1,15 @@
 package internal
 
 import (
+	"fmt"
 	"math/rand"
 	"time"
+
+	"github.com/nkreiff/submodules/public"
 )
 
 func RandomMessage() string {
 	rand.Seed(time.Now().UnixMicro())
-	switch rand.Intn(3) {
-	case 0:
-		return "Hello World!"
-	case 1:
-		return "Hola Mundo!"
-	default:
-		return ""
-	}
+	message := public.AllMessages[rand.Intn(len(public.AllMessages))]
+	return fmt.Sprintf("[%s:%d] %s", message.Language, len(public.AllMessages), message.Message)
 }
